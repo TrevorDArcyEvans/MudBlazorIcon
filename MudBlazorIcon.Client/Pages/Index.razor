@@ -1,0 +1,16 @@
+﻿@page "/"
+
+<PageTitle>MudBlazor Custom Icons</PageTitle>
+
+<h1>MudBlazor Custom Icons!</h1>
+
+<MudIcon Icon=@IconStr Title="Favorite" />
+
+<div>
+  @IconStr
+</div>
+
+@code
+{
+  private const string IconStr = "<image width=\"32\" height=\"32\" xlink:href=\"icons/lightning.png\" />";
+}
